@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+
+        android:id="@+id/textcount"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="#F4F0EF"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#030510"
+        android:textSize="100sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/Inc"
+        android:layout_width="401dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="#DDC80F"
+        android:text="+"
+        android:textColor="#1B0909"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/Dec"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="#F3C63F"
+        android:onClick="display"
+        android:text="-"
+        android:textColor="#1B0909"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/Zero"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="#ECB361"
+        android:onClick="display"
+        android:text="0"
+        android:textColor="#1B0909"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="411dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="#F19F85"
+        android:onClick="display"
+        android:text="Toast"
+        android:textColor="#1B0909"
+        android:textSize="40sp"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>

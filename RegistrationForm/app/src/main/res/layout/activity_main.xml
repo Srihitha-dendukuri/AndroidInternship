@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="MainActivity"
+       android:textSize="40dp">
+
+   </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rollno"
+        android:id="@+id/rollno"
+        android:inputType="text">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/name"
+        android:inputType="textCapWords">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number"
+        android:id="@+id/number"
+        android:inputType="phone">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Emailid"
+        android:id="@+id/emailid"
+        android:inputType="textEmailAddress">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/password"
+        android:inputType="textPassword">
+
+    </EditText>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Gender"
+     android:textSize="25sp">
+
+ </TextView>
+ <RadioGroup
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+  <RadioButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/male"
+      android:text="Male"></RadioButton>
+  <RadioButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/female"
+      android:text="Female"></RadioButton>
+
+ </RadioGroup>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Branch">
+
+ </TextView>
+ <RadioButton
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="CSE"
+     android:id="@+id/cse"></RadioButton>
+ <RadioButton
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="ECE"
+     android:id="@+id/ece"></RadioButton>
+ <RadioButton
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="MECH"
+     android:id="@+id/mech"></RadioButton>
+ <RadioButton
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="CIVIL"
+     android:id="@+id/civil"></RadioButton>
+ <RadioButton
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="EEE"
+     android:id="@+id/eee"></RadioButton>
+
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:onClick="submit"
+     android:text="submit" />
+
+
+</LinearLayout>
